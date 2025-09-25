@@ -11,7 +11,6 @@ buttonDog.addEventListener("click", function () {
     .catch(error => renderError(error, divDog));
 });
 
-// Botão e container Cat
 let buttonCat = document.getElementById("btnCat");
 let divCat = document.getElementById("outCat");
 
@@ -25,7 +24,6 @@ buttonCat.addEventListener("click", function () {
     .catch(error => renderError(error, divCat));
 });
 
-// Função de erro genérica
 function renderError(error, container) {
   container.innerHTML = "";
 
